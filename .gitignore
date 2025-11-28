@@ -82,3 +82,6 @@ out/
 
 # Thumbnails
 Thumbs.db
+
+bot_profile/
+playwright_auth/
