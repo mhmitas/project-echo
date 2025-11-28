@@ -1,7 +1,8 @@
 {
   "compilerOptions": {
-    "target": "es2017",
-    "module": "commonjs",
+    "target": "es2022", // Use a modern JS target
+    "module": "NodeNext", // <-- CHANGE: Use Node's official ESM system
+    "moduleResolution": "NodeNext", // <-- CHANGE: Use Node's official ESM resolution
     "strict": true,
     "esModuleInterop": true,
     "skipLibCheck": true,
@@ -9,6 +10,10 @@
     "outDir": "./dist",
     "rootDir": "./src"
   },
-  "include": ["src/**/*.ts"],
-  "exclude": ["node_modules"]
+  "include": [
+    "src/**/*.ts"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
 }
