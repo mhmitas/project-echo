@@ -26,5 +26,10 @@
   "bugs": {
     "url": "https://github.com/mhmitas/project-echo/issues"
   },
-  "homepage": "https://github.com/mhmitas/project-echo#readme"
+  "homepage": "https://github.com/mhmitas/project-echo#readme",
+  "dependencies": {
+    "@google/genai": "^1.30.0",
+    "@google/generative-ai": "^0.24.1",
+    "dotenv": "^17.2.3"
+  }
 }
